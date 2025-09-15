@@ -8,4 +8,10 @@ g=int(input("enter number"))
 h=int(input("enter number"))
 i=int(input("enter number"))
 j=int(input("enter number"))
-
+choice=input("ascending (type: 1) or descending order (type: 2)")
+if choice = 1:
+    ascending(a,b,c,d,e,f,g,h,i,j)
+elif choice = 2:
+    descending(a,b,c,d,e,f,g,h,i,j)
+else:
+    print("invalid")
