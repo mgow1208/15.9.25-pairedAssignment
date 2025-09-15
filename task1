@@ -1,2 +1,11 @@
-hello charleslss
+a=int(input("enter number"))
+b=int(input("enter number"))
+c=int(input("enter number"))
+d=int(input("enter number"))
+e=int(input("enter number"))
+f=int(input("enter number"))
+g=int(input("enter number"))
+h=int(input("enter number"))
+i=int(input("enter number"))
+j=int(input("enter number"))
 
