@@ -2,3 +2,5 @@ string = input('gimme a word: ')
 x = sorted(string)
 print(x)
 
+
+dont understand ext.2
