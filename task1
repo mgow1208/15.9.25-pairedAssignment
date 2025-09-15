@@ -10,10 +10,10 @@ i=int(input("enter number"))
 j=int(input("enter number"))
 x = [a, b, c, d, e, f, g, h, i, j] 
 choice=input("ascending (type: 1) or descending order (type: 2)")
-if choice = 1:
+if choice == "1":
     x.sort() 
     print(x) 
-elif choice = 2:
+elif choice == "2":
     x.sort(reverse = True)  
     print(x) 
 else:
