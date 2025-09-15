@@ -8,10 +8,33 @@ g=int(input("enter number"))
 h=int(input("enter number"))
 i=int(input("enter number"))
 j=int(input("enter number"))
+x = [a, b, c, d, e, f, g, h, i, j] /\/\/\
 choice=input("ascending (type: 1) or descending order (type: 2)")
 if choice = 1:
-    ascending(a,b,c,d,e,f,g,h,i,j)
+    'ascending(a,b,c,d,e,f,g,h,i,j)'
+    x.sort() /\/\/\
+    print(x) /\/\/\
 elif choice = 2:
-    descending(a,b,c,d,e,f,g,h,i,j)
+    'descending(a,b,c,d,e,f,g,h,i,j)'
+    x.sort(reverse = True)  /\/\/\
+    print(x) /\/\/\
 else:
     print("invalid")
+
+
+print('Please enter 10 numbers')
+e = 0
+a = int(input('Enter a number: '))
+b = int(input('Enter a number: '))
+c = int(input('Enter a number: '))
+d = int(input('Enter a number: '))
+e = int(input('Enter a number: '))
+f = int(input('Enter a number: '))
+g = int(input('Enter a number: '))
+h = int(input('Enter a number: '))
+i = int(input('Enter a number: '))
+j = int(input('Enter a number: '))
+
+x = [a, b, c, d, e, f, g, h, i, j]
+x.sort(reverse = True)
+print(x)
