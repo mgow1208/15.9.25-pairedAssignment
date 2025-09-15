@@ -1,4 +1,4 @@
 string = input('gimme a word: ')
-for char in string:
-    print(char) 
-pilot^
+x = sorted(string)
+print(x)
+
