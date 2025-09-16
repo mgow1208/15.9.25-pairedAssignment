@@ -4,7 +4,7 @@ import socket
 import threading
 
 # Set the server host to your local IP address
-host = '77.103.10.218'  # Replace this with your local IP
+host = '62.255.239.150'  # Replace this with your local IP
 port = 80  # The port for the connection
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
